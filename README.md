@@ -13,7 +13,7 @@ git clone https://github.com/kbinreallife/github-pages-next-tailwind-boilerplate
 Navigate to the project directory
 
 ```bash
-cd github-pages-next-tailwind-boilerplate/my-project-name/
+cd github-pages-next-tailwind-boilerplate/my-project-name
 ```
 
 Install dependencies:
