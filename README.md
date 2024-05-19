@@ -47,7 +47,7 @@ pnpm build
 
 1. Deploy your project to GitHub Pages:
 
-From a GitHub workspace
 ```bash
 pnpm deploy
 ```
+See GitHub docs for this last part, you'll need to set up secrets and .env variables and stuff :)
