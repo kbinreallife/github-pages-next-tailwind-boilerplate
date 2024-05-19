@@ -1,6 +1,6 @@
 # Next.js Tailwind CSS Boilerplate
 
-This is a boilerplate project for creating Next.js applications with Tailwind CSS styling and deployment to GitHub Pages.
+This is a boilerplate project I made for facilitating the creation Next.js applications with Tailwind CSS styling and deployment to GitHub Pages. 3 steps and you're ready to edit a website.
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ git clone https://github.com/kbinreallife/github-pages-next-tailwind-boilerplate
 Navigate to the project directory
 
 ```bash
-cd github-pages-next-tailwind-boilerplate
+cd github-pages-next-tailwind-boilerplate\my-project-name/my-project-name
 ```
 
 Install dependencies:
