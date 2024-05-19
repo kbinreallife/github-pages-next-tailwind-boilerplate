@@ -42,13 +42,13 @@ Edit your webpage to your hearts desire <3
 2. Update the `publish_dir` field in the [/.github/workflows/deploy.yml] file.
 
 
-1. Build your project:
+3. Build your project:
 
 ```bash
 pnpm build
 ```
 
-1. Deploy your project to GitHub Pages:
+4. Deploy your project to GitHub Pages:
 
 ```bash
 pnpm deploy
