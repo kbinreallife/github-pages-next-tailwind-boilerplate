@@ -39,6 +39,9 @@ Edit your webpage to your hearts desire <3
 "homepage": "https://your-username.github.io/your-repository/",
 ```
 
+2. Update the `publish_dir` field in the [/.github/workflows/deploy.yml] file.
+
+
 1. Build your project:
 
 ```bash
@@ -50,4 +53,3 @@ pnpm build
 ```bash
 pnpm deploy
 ```
-See GitHub docs for this last part, you'll need to set up secrets and .env variables and stuff :)
