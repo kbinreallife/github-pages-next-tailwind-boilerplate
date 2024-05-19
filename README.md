@@ -39,8 +39,11 @@ Edit your webpage to your hearts desire <3
 "homepage": "https://your-username.github.io/your-repository/",
 ```
 
-2. Update the `publish_dir` field in the [/.github/workflows/deploy.yml] file.
+2. Update the `publish_dir` field in the `/.github/workflows/deploy.yml` file.
 
+```js
+publish_dir: your-username/your-username.github.io
+```
 
 3. Build your project:
 
