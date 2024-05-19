@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change this to match your branch name
+      - main
 
 jobs:
   build:
@@ -14,7 +14,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install dependencies
-        run: pnpm install
+        run: npm install -g pnpm
+
+      - name: Install moar deps
+        run: pnpm install next -w
 
       - name: Build
         run: pnpm build
@@ -23,4 +26,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out  # Change this to match your build output directory
+          publish_dir: kbinreallife/kbinreallife.github.io
