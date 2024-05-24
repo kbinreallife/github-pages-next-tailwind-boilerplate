@@ -54,14 +54,14 @@ export default function Home() {
 
         {/* Header */}
         <header>
-          <h1 className="text-4xl font-bold text-blue-500">kb</h1>
+          <h1 className="text-4xl font-bold text-blue-500">my name here</h1>
           <p className="text-lg text-gray-700">Software Engineer</p>
         </header>
 
         {/* Blurb */}
         <section>
           <p className="text-lg text-gray-600">
-            i come from space for your nachos
+            a description about me
           </p>
         </section>
 
@@ -93,7 +93,7 @@ export default function Home() {
             <div className="rounded-md h-48">
               <h2 className="text-lg font-bold mb-2">About Me</h2>
               <p>
-                I&apos;m an incessantly curious, tenacious, deliberate, and whimsical dude who likes to build the things that live in-between. Full stack Engineer in disciplina with a burning interest for the middleware, microservices, APIs and frameworks that empower developers.
+                a longer description about me
               </p>
             </div>
           )}
@@ -101,24 +101,7 @@ export default function Home() {
           {/* Projects Section */}
           {showSection === 'projects' && (
             <div className="p-4 rounded-md h-48">
-              <h2 className="text-lg font-bold mb-2">Projects</h2>
-              <div className="space-y-2">
-                <a href="https://github.com/kbinreallife/github-pages-next-tailwind-boilerplate" className="block text-blue-500">
-                  <div className="p-2 rounded bg-gray-800 hover:bg-gray-900">
-                    Boilerplate project to make websites like this one
-                  </div>
-                </a>
-                <a href="https://github.com/kbinreallife/github-pages-next-tailwind-boilerplate" className="block text-blue-500">
-                  <div className="p-2 rounded bg-gray-800 hover:bg-gray-900">
-                    A Github Organization Activity Visualizer
-                  </div>
-                </a>
-                <a href="https://comcode.org" className="block text-blue-500">
-                  <div className="p-2 rounded bg-gray-800 hover:bg-gray-900">
-                    The Organization I Volunteer for
-                  </div>
-                </a>
-              </div>
+              
             </div>
           )}
 
@@ -128,51 +111,51 @@ export default function Home() {
                 <h2 className="text-lg font-bold mb-2">Contact</h2>
                 <div className="flex flex-col space-y-4">
                 {/* LinkedIn */}
-                <div>
-                    <p>
-                    {" "}
-                    <a
-                        href="https://www.linkedin.com/in/kyle-butcher-67424040"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-500 hover:underline"
-                    >
-                        LinkedIn
-                    </a>
-                    </p>
-                </div>
-                {/* Bluesky */}
-                <div>
-                    <p>
-                    <a
-                        href="https://bluesky.com/your-profile"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-500 hover:underline"
-                    >
-                        Bluesky
-                    </a>
-                    </p>
-                </div>
-                {/* Discord */}
-                <div>
-                    <h3 className="text-lg font-semibold"></h3>
-                    <p>
-                    <span className="text-blue-500 hover:underline"><a href="https://discordapp.com/users/233443821940113408">Discord</a></span>
-                    </p>
-                </div>
-                    <p>
-                    
-                    <a
-                        href="https://discord.gg/hackmud"
-                        className="text-blue-500 hover:underline"
-                    >
-                        hackmud discord
-                    </a>
-                    </p>
-                <div>
+                    <div>
+                        <p>
+                        {" "}
+                        <a
+                            href="https://www.linkedin.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-500 hover:underline"
+                        >
+                            LinkedIn
+                        </a>
+                        </p>
+                    </div>
+                    {/* Bluesky */}
+                    <div>
+                        <p>
+                        <a
+                            href="https://bluesky.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-500 hover:underline"
+                        >
+                            Bluesky
+                        </a>
+                        </p>
+                    </div>
+                    {/* Discord */}
+                    <div>
+                        <h3 className="text-lg font-semibold"></h3>
+                        <p>
+                        <span className="text-blue-500 hover:underline"><a href="https://discordapp.com/users/">Discord</a></span>
+                        </p>
+                    </div>
+                        <p>
+                        
+                        <a
+                            href="https://discord.gg/hackmud"
+                            className="text-blue-500 hover:underline"
+                        >
+                            hackmud discord
+                        </a>
+                        </p>
+                    <div>
 
-                </div>
+                    </div>
                 </div>
             </div>
             )}
