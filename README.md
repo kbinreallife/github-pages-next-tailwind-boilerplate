@@ -19,7 +19,7 @@ code .
 Navigate to the project directory
 
 ```bash
-cd github-pages-next-tailwind-boilerplate/username.github.io
+cd username.github.io
 ```
 
 Install dependencies:
