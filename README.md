@@ -10,10 +10,16 @@ To get started, clone this repository:
 git clone https://github.com/kbinreallife/github-pages-next-tailwind-boilerplate.git
 ```
 
+Open your project in vscode
+```bash
+code .
+```
+> At this point, you can rename the project to your github username `username.github.io`
+
 Navigate to the project directory
 
 ```bash
-cd github-pages-next-tailwind-boilerplate/my-project-name
+cd github-pages-next-tailwind-boilerplate/username.github.io
 ```
 
 Install dependencies:
